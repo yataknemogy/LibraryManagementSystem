@@ -1,17 +1,16 @@
+# Library Management System
 
-<h1>Создание системы управления библиотекой</h1>
+1. **Book:** Represents information about a book (title, author, publisher, publication year, ISBN, etc.).
+2. **Library:** Stores information about books and provides methods for managing them (adding, removing, searching for books, etc.).
+3. **LibraryUser:** Represents a library user (name, address, library card number, etc.).
 
+## Key Features:
 
-1. Book: Представляет информацию о книге (название, автор, издательство, год издания, ISBN и т.д.).
-2. Library: Хранит информацию о книгах и предоставляет методы для управления ими (добавление, удаление, поиск книги и т.д.).
-3. LibraryUser: Представляет пользователя библиотеки (имя, адрес, номер библиотечной карточки и т.д.).
-
-Основные функции: 
-1. Добавление новой книги в библиотеку.
-2. Удаление книги из библиотеки. 
-3. Поиск книги по различным критериям (например, по названию, автору, жанру). 
-4. Выдача книги пользователю. 
-5. Возврат книги в библиотеку.  
-6. Отслеживание статуса книги (доступна, выдана, потеряна и т.д.).
-8. Логирование операций с книгами и пользователями.
-9. Учет пользовательских задолженностей (например, штрафы за просроченные книги).
+1. Adding a new book to the library.
+2. Removing a book from the library.
+3. Searching for a book by various criteria (e.g., title, author, genre).
+4. Issuing a book to a user.
+5. Returning a book to the library.
+6. Tracking the status of a book (available, issued, lost, etc.).
+7. Logging operations with books and users.
+8. Managing user debts (e.g., fines for overdue books).
